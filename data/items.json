@@ -1,0 +1,5121 @@
+{
+    "facet coat of crafting": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 80,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "pliable glass fiber": 4,
+                "ethereal silk": 3,
+                "sea swallow leather": 1,
+                "sublime solution": 2,
+                "agewood aethersand": 2,
+                "lightning cluster": 2,
+                "wind cluster": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 149000
+    },
+    "pliable glass fiber": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "alc",
+            "lvl": 80,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "sandalwood sap": 3,
+                "sublime solution": 1,
+                "scuroglow aethersand": 1,
+                "water cluster": 2,
+                "lightning cluster": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 22000
+    },
+    "sandalwood sap": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 80,
+            "gdata": "",
+            "node": "legendary",
+            "time": "2 AM/PM",
+            "area": "the rak'tika greatwood",
+            "coords": [
+                24.6,
+                36.9
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 500
+    },
+    "scuroglow aethersand": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 100,
+            "unit": "white gatherer's scrip"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1090
+    },
+    "water cluster": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 50,
+            "gdata": "",
+            "node": "unspoiled",
+            "time": "1 AM, 5AM, 9AM",
+            "area": "mor dhona",
+            "coords": [
+                32,
+                11
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 9
+    },
+    "lightning cluster": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 50,
+            "gdata": "",
+            "node": "unspoiled",
+            "time": "1 AM, 5AM, 9AM",
+            "area": "mor dhona",
+            "coords": [
+                32,
+                11
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 8
+    },
+    "ethereal silk": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 80,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "ethereal cocoon": 4,
+                "multifaceted cotton cloth": 2,
+                "lightning cluster": 2,
+                "wind cluster": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 11000
+    },
+    "ethereal cocoon": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 80,
+            "gdata": "*",
+            "node": "legendary",
+            "time": "8 AM/PM",
+            "area": "lakeland",
+            "coords": [
+                26.1,
+                9.9
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1001
+    },
+    "multifaceted cotton cloth": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 20,
+            "unit": "geotia tomestones"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1800
+    },
+    "sea swallow leather": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "ltw",
+            "lvl": 78,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "sea swallow skin": 4,
+                "yellow alumen": 1,
+                "earth crystal": 7
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 2500
+    },
+    "sea swallow skin": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "tempest swallow",
+            "area": "the tempest",
+            "coords": [
+                26.9,
+                14.6
+            ]
+        },
+        "mbprice": 550
+    },
+    "yellow alumen": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 70,
+            "gdata": "**",
+            "node": "normal",
+            "time": "",
+            "area": "the inn at journey's head",
+            "coords": [
+                30.4,
+                23.2
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 500
+    },
+    "earth crystal": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 30,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "north shroud",
+            "coords": [
+                27.0,
+                22.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 85
+    },
+    "wind cluster": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 50,
+            "gdata": "",
+            "node": "unspoiled",
+            "time": "1 AM, 5 AM, 9 AM",
+            "area": "mor dhona",
+            "coords": [
+                32.0,
+                14.4
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 10
+    },
+    "sublime solution": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 125,
+            "unit": "white crafter's scrip"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 6840
+    },
+    "agewood aethersand": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 200,
+            "unit": "white gatherer's scrip"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 2395
+    },
+    "ao dai": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 70,
+            "cdata": "*",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 1,
+                "nagxian silk": 3,
+                "twinthread": 2,
+                "palladium nugget": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 725000
+    },
+    "twinthread": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 68,
+            "cdata": "",
+            "output": 3,
+            "recipe": {
+                "lightning crystal": 2,
+                "twincoon": 4,
+                "effervescent water": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1000
+    },
+    "twincoon": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 70,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the peaks",
+            "coords": [
+                26.7,
+                31.1
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 250
+    },
+    "effervescent water": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 25,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "south shroud",
+            "coords": [
+                16.0,
+                19.5
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 300
+    },
+    "palladium nugget": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 68,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind crystal": 5,
+                "palladium sand": 4,
+                "electrum ore": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1700
+    },
+    "palladium sand": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 70,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the azim steppe",
+            "coords": [
+                29.5,
+                15.5
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 300
+    },
+    "electrum ore": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 45,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "upper la noscea",
+            "coords": [
+                30.0,
+                25.2
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 200
+    },
+    "nagxian silk": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "the lost canals of uznair (70 map)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 230000
+    },
+    "lightning crystal": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 30,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "central thanalan",
+            "coords": [
+                24.6,
+                31.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 27
+    },
+    "wind crystal": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 30,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "central shroud",
+            "coords": [
+                24.5,
+                31.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 32
+    },
+    "rebel coat": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 80,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 7,
+                "wind crystal": 7,
+                "shell leather": 3,
+                "ethereal silk": 2,
+                "manzasiri hair": 2,
+                "manasilver nugget": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1470000
+    },
+    "shell leather": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "zonureskin maps (lvl 80)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 400000
+    },
+    "manzasiri hair": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "manzasiri",
+            "area": "the azim steppe",
+            "coords": [
+                17.0,
+                33.0
+            ]
+        },
+        "mbprice": 200
+    },
+    "manasilver nugget": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 74,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind crystal": 7,
+                "manasilver sand": 4,
+                "silver ore": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 2000
+    },
+    "manasilver sand": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 75,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the rak'tika greatwood",
+            "coords": [
+                15.0,
+                20.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 400
+    },
+    "silver ore": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 25,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "south shroud",
+            "coords": [
+                16.0,
+                19.5
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 300
+    },
+    "summer indigo shirt": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 80,
+            "cdata": "*",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 7,
+                "wind crystal": 7,
+                "indigo cloth": 3,
+                "ovim wool yarn": 1,
+                "manasilver nugget": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 663000
+    },
+    "indigo cloth": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "the dungeons of lyhe ghiah (lvl 80 map)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 59500
+    },
+    "ovim wool yarn": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 76,
+            "cdata": "",
+            "output": 3,
+            "recipe": {
+                "lightning crystal": 3,
+                "ovim fleece": 4,
+                "refined natron": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1969
+    },
+    "ovim fleece": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "ovim billy/nanny",
+            "area": "amh araeng",
+            "coords": [
+                15.5,
+                14.0
+            ]
+        },
+        "mbprice": 1300
+    },
+    "refined natron": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "alc",
+            "lvl": 76,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "water crystal": 7,
+                "extra effervescent water": 1,
+                "ala mhigan salt crystal": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1000
+    },
+    "extra effervescent water": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 80,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the rak'tika greatwood",
+            "coords": [
+                25.7,
+                29.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 321
+    },
+    "ala mhigan salt crystal": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 70,
+            "gdata": "",
+            "node": "unspoiled",
+            "time": "12 AM/PM",
+            "area": "the lochs",
+            "coords": [
+                21.3,
+                29.4
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1000
+    },
+    "water crystal": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 30,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "eastern la noscea",
+            "coords": [
+                28.0,
+                34.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 30
+    },
+    "facet coat of healing": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 80,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 2,
+                "ethereal silk": 3,
+                "chalicotherium leather": 1,
+                "zonure leather": 1,
+                "grade 2 mind alkahest": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 170000
+    },
+    "chalicotherium leather": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "ltw",
+            "lvl": 80,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "earth cluster": 2,
+                "wind cluster": 2,
+                "chalicotherium skin": 4,
+                "multifaceted alumen": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 29000
+    },
+    "chalicotherium skin": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 20,
+            "unit": "geotia tomestones"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 3729
+    },
+    "multifaceted alumen": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 20,
+            "unit": "geotia tomestones"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 4000
+    },
+    "zonure leather": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "ltw",
+            "lvl": 76,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "earth crystal": 7,
+                "zonure skin": 4,
+                "yellow alumen": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 3000
+    },
+    "zonure skin": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "flame zonure",
+            "area": "amh araeng",
+            "coords": [
+                24.0,
+                34.0
+            ]
+        },
+        "mbprice": 500
+    },
+    "grade 2 mind alkahest": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "alc",
+            "lvl": 80,
+            "cdata": "**",
+            "output": 3,
+            "recipe": {
+                "water cluster": 2,
+                "lightning cluster": 2,
+                "multifaceted alchemic": 2,
+                "tiger lily": 1,
+                "agewood aethersand": 3
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 50000
+    },
+    "multifaceted alchemic": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 20,
+            "unit": "geotia tomestones"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 3500
+    },
+    "tiger lily": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 80,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "lakeland",
+            "coords": [
+                25.0,
+                30.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 300
+    },
+    "earth cluster": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 50,
+            "gdata": "",
+            "node": "unspoiled",
+            "time": "1/5/9 AM",
+            "area": "mor dhona",
+            "coords": [
+                32.0,
+                14.4
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 120
+    },
+    "facet coat of casting": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 80,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 2,
+                "ethereal silk": 2,
+                "chalicotherium leather": 1,
+                "prismatic ingot": 1,
+                "stonegold nugget": 1,
+                "grade 2 intelligence alkahest": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 145000
+    },
+    "prismatic ingot": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 80,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "wind cluster": 2,
+                "fire cluster": 2,
+                "prismstone": 4,
+                "multifaceted resin": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 17000
+    },
+    "prismstone": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 80,
+            "gdata": "",
+            "node": "legendary",
+            "time": "4 AM/PM",
+            "area": "il mheg",
+            "coords": [
+                30.6,
+                20.5
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 800
+    },
+    "multifaceted resin": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 20,
+            "unit": "geotia tomestones"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 4000
+    },
+    "stonegold nugget": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 71,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind crystal": 6,
+                "truegold sand": 4,
+                "gold ore": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1000
+    },
+    "truegold sand": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 75,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "kholusia",
+            "coords": [
+                22.5,
+                31.4
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 420
+    },
+    "gold ore": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 50,
+            "gdata": "*",
+            "node": "unspoiled",
+            "time": "9 AM",
+            "area": "eastern thanalan",
+            "coords": [
+                28.0,
+                21.4
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 720
+    },
+    "grade 2 intelligence alkahest": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "alc",
+            "lvl": 80,
+            "cdata": "**",
+            "output": 3,
+            "recipe": {
+                "water cluster": 2,
+                "lightning cluster": 2,
+                "multifaceted alchemic": 2,
+                "fernleaf lavender": 1,
+                "agewood aethersand": 3
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 28000
+    },
+    "fernleaf lavender": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 80,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the rak'tika greatwood",
+            "coords": [
+                27.0,
+                24.6
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 800
+    },
+    "fire cluster": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 50,
+            "gdata": "",
+            "node": "unspoiled",
+            "time": "1/5/9 AM",
+            "area": "mor dhona",
+            "coords": [
+                32.0,
+                14.5
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 30
+    },
+    "hooded fireglass leather vest": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "ltw",
+            "lvl": 80,
+            "cdata": "*",
+            "output": 1,
+            "recipe": {
+                "earth crystal": 7,
+                "wind crystal": 7,
+                "fireglass leather": 3,
+                "pixie cotton": 1,
+                "pixie floss": 2,
+                "stonegold nugget": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 250000
+    },
+    "fireglass leather": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "dungeons of lyhe ghiah (lvl 80 map)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 55000
+    },
+    "pixie cotton": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 74,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 4,
+                "pixie floss": 3
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 2400
+    },
+    "pixie floss": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 74,
+            "cdata": "",
+            "output": 3,
+            "recipe": {
+                "lightning crystal": 3,
+                "pixie floss boll": 4
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 700
+    },
+    "pixie floss boll": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 75,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the rak'tika greatwood",
+            "coords": [
+                15.0,
+                27.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 400
+    },
+    "adventuring sweater": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 70,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 2,
+                "steppe serge": 2,
+                "worsted yarn": 3,
+                "holy linen": 2,
+                "palladium nugget": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 148000
+    },
+    "steppe serge": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 66,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 3,
+                "worsted yarn": 3
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1500
+    },
+    "worsted yarn": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 66,
+            "cdata": "",
+            "output": 3,
+            "recipe": {
+                "lightning crystal": 2,
+                "halgai mane": 2,
+                "manzasiri hair": 2,
+                "natron": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 3000
+    },
+    "halgai mane": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "halgai",
+            "area": "the azim steppe",
+            "coords": [
+                19.0,
+                16.0
+            ]
+        },
+        "mbprice": 240
+    },
+    "natron": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "alc",
+            "lvl": 25,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "water shard": 2,
+                "effervescent water": 1,
+                "rock salt": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1350
+    },
+    "rock salt": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 15,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "central thanalan",
+            "coords": [
+                14.7,
+                22.5
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 74
+    },
+    "holy linen": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "hidden/lost canals of uznair (lvl 70 map)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 55000
+    },
+    "water shard": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 30,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "eastern la noscea",
+            "coords": [
+                28.0,
+                33.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 83
+    },
+    "urban coat": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 80,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 7,
+                "wind crystal": 7,
+                "shell leather": 3,
+                "ethereal silk": 2,
+                "halgai mane": 3
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 6500000
+    },
+    "whisperfine woolen coat": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 70,
+            "cdata": "***",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 2,
+                "whisperfine fleece": 2,
+                "ground sloth leather": 2,
+                "steppe serge": 2,
+                "sewing thread": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 630000
+    },
+    "whisperfine fleece": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "lost canals of uznair (lvl 70 map)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 255000
+    },
+    "ground sloth leather": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "ltw",
+            "lvl": 70,
+            "cdata": "***",
+            "output": 2,
+            "recipe": {
+                "earth cluster": 2,
+                "wind cluster": 2,
+                "ground sloth pelt": 4,
+                "thavnairian alumen": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 7000
+    },
+    "ground sloth pelt": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 10,
+            "unit": "allagan tomestones"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1200
+    },
+    "thavnairian alumen": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 10,
+            "unit": "allagan tomestones"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 385
+    },
+    "sewing thread": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 60,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 7,
+                "wind crystal": 7,
+                "whitefrost cotton boll": 3
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 5000
+    },
+    "whitefrost cotton boll": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 60,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "coerthas western highlands",
+            "coords": [
+                11.0,
+                15.6
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 50
+    },
+    "hempen camise": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 3,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "lightning shard": 1,
+                "wind shard": 1,
+                "undyed hempen cloth": 2,
+                "hempen yarn": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1100
+    },
+    "lightning shard": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 10,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "central thanalan",
+            "coords": [
+                22.8,
+                26.3
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 84
+    },
+    "wind shard": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 15,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "central shroud",
+            "coords": [
+                20.0,
+                20.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 72
+    },
+    "undyed hempen cloth": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 2,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "lightning shard": 1,
+                "hempen yarn": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 30
+    },
+    "hempen yarn": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 1,
+            "cdata": "",
+            "output": 2,
+            "recipe": {
+                "lightning shard": 1,
+                "moko grass": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 10
+    },
+    "adventurer's hooded vest": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "ltw",
+            "lvl": 80,
+            "cdata": "*",
+            "output": 1,
+            "recipe": {
+                "earth crystal": 7,
+                "wind crystal": 7,
+                "fireglass leather": 3,
+                "pixie cotton": 2,
+                "pixie floss": 2,
+                "stonegold nugget": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 750000
+    },
+    "moko grass": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 15,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "western thanalan",
+            "coords": [
+                24.0,
+                19.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 100
+    },
+    "ramie cloth": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 54,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 2,
+                "ramie thread": 2,
+                "linen yarn": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 3000
+    },
+    "ramie thread": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 54,
+            "cdata": "",
+            "output": 2,
+            "recipe": {
+                "lightning crystal": 2,
+                "stalk of ramie": 3,
+                "flax": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 2000
+    },
+    "stalk of ramie": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 55,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the dravanian forelands",
+            "coords": [
+                37.7,
+                19.5
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 250
+    },
+    "flax": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 35,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "south shroud",
+            "coords": [
+                17.0,
+                28.5
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 450
+    },
+    "linen yarn": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 32,
+            "cdata": "",
+            "output": 2,
+            "recipe": {
+                "lightning shard": 3,
+                "flax": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 300
+    },
+    "thavnairian bustier": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 60,
+            "cdata": "*",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 1,
+                "thavnairian silk": 3,
+                "crawler silk": 1,
+                "aurum regis nugget": 1,
+                "iolite": 1,
+                "dawnborne aethersand": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 120000
+    },
+    "thavnairian silk": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "timeworn dragonskin map (lvl 60?)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 49000
+    },
+    "crawler silk": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 57,
+            "cdata": "",
+            "output": 2,
+            "recipe": {
+                "lightning crystal": 5,
+                "crawler cocoon": 3,
+                "silkworm cocoon": 2,
+                "effervescent water": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 10000
+    },
+    "crawler cocoon": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "crawler",
+            "area": "the dravanian hinterlands",
+            "coords": [
+                10.0,
+                19.0
+            ]
+        },
+        "mbprice": 700
+    },
+    "silkworm cocoon": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 50,
+            "gdata": "",
+            "node": "unspoiled",
+            "time": "1 AM",
+            "area": "east shroud",
+            "coords": [
+                22.0,
+                25.7
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1010
+    },
+    "aurum regis nugget": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 58,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind crystal": 5,
+                "aurum regis sand": 5,
+                "gold ore": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 700
+    },
+    "aurum regis sand": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 60,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the sea of clouds",
+            "coords": [
+                35.3,
+                31.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 300
+    },
+    "iolite": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 50,
+            "cdata": "***",
+            "output": 1,
+            "recipe": {
+                "wind cluster": 2,
+                "fire cluster": 1,
+                "emery": 1,
+                "raw iolite": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 3400
+    },
+    "emery": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 1500,
+            "unit": "company seals"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 710
+    },
+    "raw iolite": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 50,
+            "gdata": "**",
+            "node": "unspoiled",
+            "time": "3 AM",
+            "area": "northern thanalan",
+            "coords": [
+                16.4,
+                20.3
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1400
+    },
+    "dawnborne aethersand": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 50,
+            "cdata": "(actually btn desynth)",
+            "output": 1,
+            "recipe": {
+                "black soil": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 2400
+    },
+    "black soil": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 60,
+            "gdata": "",
+            "node": "ephemeral",
+            "time": "4 PM",
+            "area": "the churning mists",
+            "coords": [
+                32.0,
+                32.3
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1000
+    },
+    "serge poncho": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 70,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 6,
+                "wind crystal": 5,
+                "twinsilk": 1,
+                "steppe serge": 3,
+                "worsted yarn": 1,
+                "manzasiri hair": 3
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 80000
+    },
+    "twinsilk": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 68,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 3,
+                "twinthread": 3
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 500
+    },
+    "cashmere poncho": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 60,
+            "cdata": "*",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 1,
+                "cashmere cloth": 2,
+                "wool top": 2,
+                "bearskin": 2,
+                "crawler silk": 2,
+                "wolfram square": 1,
+                "fine alumen": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 715000
+    },
+    "cashmere cloth": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 50,
+            "cdata": "***",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 1,
+                "cashmere fleece": 1,
+                "diluted vitriol": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 5000
+    },
+    "cashmere fleece": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 1500,
+            "unit": "company seals"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 500
+    },
+    "diluted vitriol": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "alc",
+            "lvl": 50,
+            "cdata": "**",
+            "output": 9,
+            "recipe": {
+                "water cluster": 1,
+                "filtered water": 9,
+                "vitriol": 6
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 818
+    },
+    "filtered water": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 20,
+            "unit": "company seals"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 100
+    },
+    "vitriol": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 216,
+            "unit": "gil (outer la noscea 21.6, 17.8)"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": -2
+    },
+    "wool top": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 200,
+            "unit": "gold crafter/gatherer's scrip"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 18000
+    },
+    "bearskin": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 1,
+            "unit": "althyk lavender"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 2666
+    },
+    "wolfram square": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "arm",
+            "lvl": 50,
+            "cdata": "***",
+            "output": 1,
+            "recipe": {
+                "ice cluster": 2,
+                "earth cluster": 1,
+                "scheelite": 1,
+                "ferberite": 1,
+                "cobalt ore": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 3300
+    },
+    "scheelite": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 1500,
+            "unit": "company seals"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1500
+    },
+    "ferberite": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 50,
+            "gdata": "**",
+            "node": "unspoiled",
+            "time": "3 AM",
+            "area": "northern thanalan",
+            "coords": [
+                16.4,
+                20.3
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 404
+    },
+    "cobalt ore": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 50,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "northern thanalan",
+            "coords": [
+                22.8,
+                24.3
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 500
+    },
+    "fine alumen": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 5,
+            "unit": "from sea of clouds venture - sector 07"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 297500
+    },
+    "quaintrelle's ruffled dress": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 70,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 2,
+                "cloth cointe quaint": 1,
+                "leather cointe quaint": 1,
+                "true linen": 2,
+                "mormorion": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 274000
+    },
+    "cloth cointe quaint": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "level 70 map (lost canals)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 164000
+    },
+    "leather cointe quaint": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "gaganaskin map (lvl 70)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 5000
+    },
+    "true linen": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 70,
+            "cdata": "***",
+            "output": 2,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 2,
+                "hingan flax": 4,
+                "thavnairian cotton": 2,
+                "twinthread": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 14000
+    },
+    "hingan flax": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 70,
+            "gdata": "",
+            "node": "unspoiled",
+            "time": "2 AM/PM",
+            "area": "the peaks",
+            "coords": [
+                24.6,
+                35.8
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 500
+    },
+    "thavnairian cotton": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 10,
+            "unit": "allagan tomestones"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 800
+    },
+    "mormorion": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 54,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind crystal": 4,
+                "raw mormorion": 3,
+                "aqueous whetstone": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 2000
+    },
+    "raw mormorion": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 55,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "coerthas western highlands",
+            "coords": [
+                31.0,
+                12.4
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 25
+    },
+    "aqueous whetstone": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 200,
+            "unit": "company seals"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 2000
+    },
+    "ala mhigan gown": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 70,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 2,
+                "ala mhigan weave": 2,
+                "rhea cloth": 1,
+                "worsted yarn": 1,
+                "sewing thread": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 300000
+    },
+    "ala mhigan weave": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "uznair (lvl 70 map)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 100000
+    },
+    "rhea cloth": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 70,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 2,
+                "rhea": 4,
+                "bloodhempen yarn": 1,
+                "doman weave": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 9000
+    },
+    "rhea": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 70,
+            "gdata": "*",
+            "node": "legendary",
+            "time": "12 AM/PM",
+            "area": "the azim steppe",
+            "coords": [
+                19.7,
+                9.6
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1000
+    },
+    "bloodhempen yarn": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 61,
+            "cdata": "",
+            "output": 3,
+            "recipe": {
+                "lightning crystal": 1,
+                "bloodhemp": 4
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1250
+    },
+    "bloodhemp": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 60,
+            "gdata": "**",
+            "node": "normal",
+            "time": "",
+            "area": "the fringes",
+            "coords": [
+                17.9,
+                8.7
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 800
+    },
+    "doman weave": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 10,
+            "unit": "allagan tomestones"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 100
+    },
+    "spring dress": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 50,
+            "cdata": "***",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 1,
+                "dress material": 2,
+                "vanya silk": 1,
+                "silk thread": 1,
+                "desert saffron": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 300000
+    },
+    "dress material": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "solo lvl 50 maps (leather, peisteskin)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 160000
+    },
+    "vanya silk": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 50,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 1,
+                "silk thread": 2,
+                "potash": 9
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 4000
+    },
+    "silk thread": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 50,
+            "cdata": "*",
+            "output": 2,
+            "recipe": {
+                "lightning crystal": 3,
+                "silkworm cocoon": 2,
+                "effervescent water": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1111
+    },
+    "potash": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 200,
+            "unit": "company seals"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 390
+    },
+    "desert saffron": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 35,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "southern thanalan",
+            "coords": [
+                20.6,
+                8.8
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 600
+    },
+    "company tabard": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 55,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 1,
+                "wind cluster": 1,
+                "dusk leather": 3,
+                "ramie cloth": 2,
+                "ramie thread": 1,
+                "rose gold nugget": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1000000
+    },
+    "dusk leather": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 5,
+            "unit": "voyage sea of clouds - section 18"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 240000
+    },
+    "rose gold nugget": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 50,
+            "cdata": "*",
+            "output": 1,
+            "recipe": {
+                "wind crystal": 3,
+                "gold ore": 3,
+                "copper ore": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 5000
+    },
+    "copper ore": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 5,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "western thanalan",
+            "coords": [
+                26.8,
+                25.7
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 35
+    },
+    "taoist's shirt": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 70,
+            "cdata": "*",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 1,
+                "taoist's wool": 3,
+                "twinthread": 2,
+                "worsted yarn": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 290000
+    },
+    "taoist's wool": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "any level 70 map",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 91000
+    },
+    "taffeta shawl": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 50,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 1,
+                "wind cluster": 1,
+                "taffeta cloth": 1,
+                "silk thread": 1,
+                "rose gold ingot": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 59000
+    },
+    "taffeta cloth": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "retainer venture",
+            "area": "Field/Highland Exlporation XIII (lvl 50)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 8900
+    },
+    "rose gold ingot": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 50,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "wind cluster": 1,
+                "rose gold nugget": 2,
+                "peacock ore": 9
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1799
+    },
+    "peacock ore": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 200,
+            "unit": "company seals"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 123
+    },
+    "raincoat": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 70,
+            "cdata": "***",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 7,
+                "wind crystal": 7,
+                "waterproof cloth": 2,
+                "ground sloth leather": 1,
+                "ruby cotton cloth": 1,
+                "sewing thread": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 198000
+    },
+    "waterproof cloth": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "shifting altars of uznair",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 19000
+    },
+    "ruby cotton cloth": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 62,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 2,
+                "ruby cotton yarn": 3
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1000
+    },
+    "ruby cotton yarn": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 62,
+            "cdata": "",
+            "output": 3,
+            "recipe": {
+                "lightning crystal": 1,
+                "ruby cotton boll": 4
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 500
+    },
+    "ruby cotton boll": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 65,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the ruby sea",
+            "coords": [
+                27.5,
+                22.2
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 424
+    },
+    "sailor shirt": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 50,
+            "cdata": "*",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 3,
+                "wind crystal": 2,
+                "mariner cotton cloth": 2,
+                "boar leather": 1,
+                "undyed velveteen": 1,
+                "silk thread": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 210000
+    },
+    "mariner cotton cloth": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty rewards",
+            "area": "arr map drops (boarskin/leather)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 220000
+    },
+    "boar leather": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "arr map drops (boarskin/leather)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 1800
+    },
+    "undyed velveteen": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 24,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "lightning shard": 1,
+                "cotton yarn": 1,
+                "dew thread": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 800
+    },
+    "cotton yarn": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 12,
+            "cdata": "",
+            "output": 2,
+            "recipe": {
+                "lightning shard": 1,
+                "cotton boll": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 44
+    },
+    "cotton boll": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 15,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "central shroud",
+            "coords": [
+                22.5,
+                23.9
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 76
+    },
+    "dew thread": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 23,
+            "cdata": "",
+            "output": 2,
+            "recipe": {
+                "lightning shard": 2,
+                "diremite web": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 900
+    },
+    "diremite web": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "banemite",
+            "area": "central shroud",
+            "coords": [
+                15.0,
+                24.0
+            ]
+        },
+        "mbprice": 40
+    },
+    "glacial coat": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "ltw",
+            "lvl": 50,
+            "cdata": "*",
+            "output": 1,
+            "recipe": {
+                "earth crystal": 3,
+                "wind crystal": 2,
+                "chinchilla hide": 2,
+                "boar leather": 1,
+                "silk thread": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 230000
+    },
+    "chinchilla hide": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "duty reward",
+            "area": "arr maps (leather/peisteskin)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 15000
+    },
+    "ice cluster": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 50,
+            "gdata": "",
+            "node": "unspoiled",
+            "time": "check online",
+            "area": "mor dhona",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 20
+    },
+    "dwarven cotton jacket": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 80,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "dwarven cotton": 2,
+                "sea swallow leather": 1,
+                "stonegold nugget": 1,
+                "dwarven cotton thread": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 41693
+    },
+    "dwarven cotton": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 78,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "dwarven cotton thread": 3
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 2000
+    },
+    "dwarven cotton thread": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 78,
+            "cdata": "",
+            "output": 3,
+            "recipe": {
+                "dwarven cotton boll": 4
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 650
+    },
+    "dwarven cotton boll": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 80,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "kholusia",
+            "coords": [
+                13.7,
+                14.4
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 350
+    },
+    "facet coat of gathering": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 80,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 2,
+                "pliable glass fiber": 4,
+                "ethereal silk": 3,
+                "sea swallow leather": 1,
+                "sublime solution": 2,
+                "agewood aethersand": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 250000
+    },
+    "grade 1 dexterity dissolvent": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "alc",
+            "lvl": 53,
+            "cdata": "",
+            "output": 3,
+            "recipe": {
+                "water crystal": 4,
+                "deepeye tears": 4,
+                "mist dill": 2,
+                "volcanic rock salt": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 15000
+    },
+    "deepeye tears": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "deepeye",
+            "area": "coerthas western highlands",
+            "coords": [
+                31.0,
+                29.0
+            ]
+        },
+        "mbprice": 700
+    },
+    "mist dill": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 55,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "coerthas western highlands",
+            "coords": [
+                18.0,
+                17.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 250
+    },
+    "volcanic rock salt": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 50,
+            "gdata": "*",
+            "node": "unspoiled",
+            "time": "5PM",
+            "area": "eastern la noscea",
+            "coords": [
+                21.2,
+                32.7
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1000
+    },
+    "twinsilk suspenders": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 70,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "twinsilk": 2,
+                "steppe serge": 2,
+                "gazelle leather": 1,
+                "twinthread": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 57000
+    },
+    "gazelle leather": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "ltw",
+            "lvl": 68,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "earth crystal": 5,
+                "gazelle hide": 3,
+                "persimmon tannin": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1500
+    },
+    "gazelle hide": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "gazelle",
+            "area": "the fringes",
+            "coords": [
+                26.0,
+                28.0
+            ]
+        },
+        "mbprice": 1300
+    },
+    "persimmon tannin": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "alc",
+            "lvl": 66,
+            "cdata": "",
+            "output": 3,
+            "recipe": {
+                "water crystal": 5,
+                "persimmon": 5,
+                "crescent spring water": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1000
+    },
+    "persimmon": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 70,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the fringes",
+            "coords": [
+                9.1,
+                30.2
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 350
+    },
+    "crescent spring water": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 65,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "yanxia",
+            "coords": [
+                31.7,
+                21.8
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 816
+    },
+    "pixie cotton culottes of striking": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 75,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "pixie cotton": 3,
+                "atrociraptor leather": 1,
+                "rose gold nugget": 1,
+                "rainbow thread": 1,
+                "grade 1 strength alkahest": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 15000
+    },
+    "atrociraptor leather": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "ltw",
+            "lvl": 74,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "earth crystal": 7,
+                "atrociraptor skin": 4,
+                "yellow alumen": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 3800
+    },
+    "atrociraptor skin": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 2,
+            "unit": "bicolor gemstone"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1000
+    },
+    "rainbow thread": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 51,
+            "cdata": "",
+            "output": 2,
+            "recipe": {
+                "lightning crystal": 1,
+                "rainbow cotton boll": 3,
+                "cotton boll": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1400
+    },
+    "rainbow cotton boll": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 55,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "coerthas western highlands",
+            "coords": [
+                18.0,
+                17.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 500
+    },
+    "grade 1 strength alkahest": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "alc",
+            "lvl": 73,
+            "cdata": "",
+            "output": 3,
+            "recipe": {
+                "water crystal": 6,
+                "highland spring water": 1,
+                "hoptrap leaf": 1,
+                "yanxian parsley": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1900
+    },
+    "highland spring water": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 75,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "il mheg",
+            "coords": [
+                6.7,
+                18.7
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 310
+    },
+    "hoptrap leaf": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "hoptrap",
+            "area": "lakeland",
+            "coords": [
+                32.0,
+                21.0
+            ]
+        },
+        "mbprice": 2035
+    },
+    "yanxian parsley": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 70,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "yanxia",
+            "coords": [
+                22.0,
+                12.4
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 740
+    },
+    "iridescent hat of scouting": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 72,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "iridescent silk": 2,
+                "iridescent silk thread": 3,
+                "wildfowl feather": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 9387
+    },
+    "iridescent silk": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 72,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 3,
+                "iridescent silk thread": 3
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 750
+    },
+    "iridescent silk thread": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 72,
+            "cdata": "",
+            "output": 3,
+            "recipe": {
+                "lightning crystal": 3,
+                "iridescent cocoon": 4,
+                "effervescent water": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 500
+    },
+    "iridescent cocoon": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 75,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "il mheg",
+            "coords": [
+                12.3,
+                22.2
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 350
+    },
+    "wildfowl feather": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 35,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "south shroud",
+            "coords": [
+                17.0,
+                28.5
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 490
+    },
+    "dwarven cotton bandana": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 80,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 7,
+                "wind crystal": 7,
+                "dwarven cotton": 2,
+                "dwarven mythril nugget": 1,
+                "dwarven cotton thread": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 34000
+    },
+    "dwarven mythril nugget": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 78,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind crystal": 7,
+                "dimythrite sand": 4,
+                "mythrite sand": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1150
+    },
+    "dimythrite sand": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 80,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "amh araeng",
+            "coords": [
+                16.6,
+                11.6
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 799
+    },
+    "mythrite sand": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 55,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "coerthas western highlands",
+            "coords": [
+                16.6,
+                12.7
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 700
+    },
+    "gaganaskin shoes": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "ltw",
+            "lvl": 61,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "earth crystal": 3,
+                "wind crystal": 2,
+                "gagana leather": 2,
+                "bloodhempen cloth": 1,
+                "bloodhempen yarn": 1,
+                "rubber": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 70000
+    },
+    "gagana leather": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "ltw",
+            "lvl": 61,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "earth crystal": 3,
+                "gagana skin": 3,
+                "gyr abanian alumen": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1500
+    },
+    "gyr albanian alumen": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 60,
+            "gdata": "**",
+            "node": "normal",
+            "time": "",
+            "area": "the fringes",
+            "coords": [
+                17.1,
+                11.6
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 550
+    },
+    "gagana skin": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "gagana",
+            "area": "the fringes",
+            "coords": [
+                30.0,
+                16.0
+            ]
+        },
+        "mbprice": 550
+    },
+    "bloodhempen cloth": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 61,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 2,
+                "bloodhempen yarn": 3
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 800
+    },
+    "rubber": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "alc",
+            "lvl": 7,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "water shard": 1,
+                "latex": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 121
+    },
+    "latex": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 5,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "central shroud",
+            "coords": [
+                22.7,
+                17.6
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 125
+    },
+    "iridescent top of casting": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 73,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "iridescent silk": 3,
+                "green glider leather": 1,
+                "star ruby": 1,
+                "electrum ingot": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 38000
+    },
+    "green glider leather": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "ltw",
+            "lvl": 72,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "earth crystal": 6,
+                "green glider skin": 4,
+                "yellow alumen": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1000
+    },
+    "green glider skin": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "green glider",
+            "area": "il mheg",
+            "coords": [
+                25.0,
+                14.0
+            ]
+        },
+        "mbprice": 730
+    },
+    "star ruby": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 55,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind crystal": 4,
+                "raw star ruby": 3,
+                "basilisk whetstone": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 2283
+    },
+    "raw star ruby": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 55,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the dravanian forelands",
+            "coords": [
+                30.5,
+                15.3
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 200
+    },
+    "basilisk whetstone": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 40,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind shard": 5,
+                "basilisk egg": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 800
+    },
+    "basilisk egg": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 50,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "northern thanalan",
+            "coords": [
+                22.8,
+                24.3
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 389
+    },
+    "electrum ingot": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 42,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind shard": 5,
+                "electrum ore": 4
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1190
+    },
+    "gyr abanian alumen": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 60,
+            "gdata": "**",
+            "node": "normal",
+            "time": "",
+            "area": "the fringes",
+            "coords": [
+                17.1,
+                11.6
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 550
+    },
+    "hardsilver planisphere": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 57,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind crystal": 5,
+                "fire crystal": 4,
+                "hardsilver ingot": 2,
+                "titanium ingot": 1,
+                "electrum ingot": 1,
+                "carnelian": 1,
+                "enchanted hardsilver ink": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 95950
+    },
+    "fire crystal": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "btn",
+            "lvl": 30,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "middle la noscea",
+            "coords": [
+                20.0,
+                21.1
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 150
+    },
+    "hardsilver ingot": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 56,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind crystal": 5,
+                "hardsilver ore": 4,
+                "hardsilver nugget": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1850
+    },
+    "titanium ingot": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "bsm",
+            "lvl": 56,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "fire crystal": 5,
+                "cloud mica": 4,
+                "titanium nugget": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1800
+    },
+    "carnelian": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 57,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind crystal": 5,
+                "raw carnelian": 3,
+                "cloud mica whetstone": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 9900
+    },
+    "enchanted hardsilver ink": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "alc",
+            "lvl": 54,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "water crystal": 4,
+                "hardsilver sand": 4,
+                "dhalmel saliva": 2,
+                "dravanian spring water": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 14000
+    },
+    "hardsilver ore": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 60,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the dravanian hinterlands",
+            "coords": [
+                25.0,
+                25.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 35
+    },
+    "hardsilver nugget": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 54,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind crystal": 4,
+                "hardsilver sand": 5,
+                "silver ore": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 750
+    },
+    "cloud mica": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 60,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the churning mists",
+            "coords": [
+                27.5,
+                19.3
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 905
+    },
+    "hardsilver sand": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 60,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the churning mists",
+            "coords": [
+                27.5,
+                19.3
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 390
+    },
+    "titanium nugget": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "bsm",
+            "lvl": 54,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "fire crystal": 4,
+                "titanium ore": 5,
+                "iron ore": 1,
+                "grenade ash": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 2500
+    },
+    "raw carnelian": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 60,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the dravanian forelands",
+            "coords": [
+                19.0,
+                28.4
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 250
+    },
+    "dhalmel saliva": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "dhalmel",
+            "area": "the sea of clouds",
+            "coords": [
+                16.0,
+                32.0
+            ]
+        },
+        "mbprice": 1800
+    },
+    "dravanian spring water": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 55,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the dravanian forelands",
+            "coords": [
+                28.0,
+                31.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 150
+    },
+    "titanium ore": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 55,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the dravnian forelands",
+            "coords": [
+                30.5,
+                15.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 500
+    },
+    "iron ore": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 15,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "western thanalan",
+            "coords": [
+                27.3,
+                17.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 41
+    },
+    "grenade ash": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 40,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "northern thanalan",
+            "coords": [
+                22.0,
+                28.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 300
+    },
+    "cloud mica whetstone": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 56,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind crystal": 5,
+                "cloud mica": 3
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 3000
+    },
+    "assorted candles": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "alc",
+            "lvl": 70,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "water cluster": 2,
+                "lightning cluster": 2,
+                "marine wax ester": 2,
+                "tallow candle": 5,
+                "beeswax candle": 5
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1000000
+    },
+    "marine wax ester": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "voyage concealed bay",
+            "area": "sector R",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 395999
+    },
+    "tallow candle": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 225,
+            "unit": "gil"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 225
+    },
+    "beeswax candle": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 45,
+            "unit": "gil"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 45
+    },
+    "hannish wool autumn shirt": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 70,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "lightning cluster": 2,
+                "wind cluster": 2,
+                "hannish wool": 3,
+                "gyuki leather": 2,
+                "koppranickel nugget": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 1180000
+    },
+    "hannish wool": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "lvl 80 map",
+            "area": "hidden/lost canals of uznair",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 300000
+    },
+    "gyuki leather": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "ltw",
+            "lvl": 62,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "earth crystal": 3,
+                "gyuki hide": 3,
+                "gyr abanian alumen": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 800
+    },
+    "gyuki hide": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "gyuki",
+            "area": "the ruby sea",
+            "coords": [
+                14.0,
+                10.0
+            ]
+        },
+        "mbprice": 100
+    },
+    "koppranickel nugget": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 61,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "wind crystal": 3,
+                "koppranickel sand": 4,
+                "copper ore": 1
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 2500
+    },
+    "koppranickel sand": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 65,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "the peaks",
+            "coords": [
+                23.6,
+                13.5
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 700
+    },
+    "lily floor lamp": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 34,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "mythril ingot": 2,
+                "clear glass lens": 2,
+                "tallow candle": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 11000
+    },
+    "mythril ingot": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "gsm",
+            "lvl": 34,
+            "cdata": "",
+            "output": 1,
+            "recipe": {
+                "mythril ore": 3
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 950
+    },
+    "clear glass lens": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": true,
+        "tradeinfo": {
+            "cost": 53,
+            "unit": "gil"
+        },
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 100
+    },
+    "dalmascan draped top": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": true,
+        "craftinfo": {
+            "crafter": "wvr",
+            "lvl": 80,
+            "cdata": "**",
+            "output": 1,
+            "recipe": {
+                "lightning crystal": 7,
+                "wind crystal": 7,
+                "cloth-softening powder": 3,
+                "ethereal silk": 2,
+                "sea swallow leather": 2
+            }
+        },
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 2800000
+    },
+    "cloth-softening powder": {
+        "gatherable": false,
+        "gatherinfo": {},
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": true,
+        "dropinfo": {
+            "enemy": "lvl 80 maps",
+            "area": "lvl 80 maps",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "mbprice": 690000
+    }
+}

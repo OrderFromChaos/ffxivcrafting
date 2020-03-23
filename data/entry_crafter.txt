@@ -1,0 +1,18 @@
+facet coat of crafting
+1
+0
+1
+wvr
+80
+**
+1
+pliable glass fiber 4
+ethereal silk 3
+sea swallow leather 1
+sublime solution 2
+agewood aethersand 2
+lightning cluster 2
+wind cluster 2
+quit
+0
+0
