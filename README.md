@@ -4,11 +4,11 @@
 
 [Final Fantasy XIV](https://na.finalfantasyxiv.com/lodestone/) is an MMORPG with a market board and crafting system. A market board allows for selling items in the in-game currency (gil):
 
-TODO: insert mb image
+![Market board example](images/ffxivcraftboard.png)
 
-The game also includes 8 crafter classes, each with different recipes they can make at different levels. Some people will evel up all of their crafters to max rank, which is known as becoming an "omnicrafter." Here is an example crafting recipe:
+The game also includes 8 crafter classes, each with different recipes they can make at different levels. Some people will level up all of their crafters to max rank, which is known as becoming an "omnicrafter." Here is an example crafting recipe:
 
-TODO: insert crafting recipe picture
+![Example crafting recipe](images/craftinterface.png)
 
 If you're a lazy omnicrafter, can you make a profit simply from buying raw materials and reselling the crafted version of those materials? The answer is yes. To figure this out, I represented the crafting list for each item as a tree, and used [depth-first search](https://en.wikipedia.org/wiki/Depth-first_search) to compute the gil cost to buy raw materials and craft vs. directly buying it from the market board. You can see this on the output example below:
 
