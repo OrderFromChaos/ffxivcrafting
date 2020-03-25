@@ -5117,5 +5117,27 @@
             ]
         },
         "mbprice": 690000
+    },
+    "mythril ore": {
+        "gatherable": true,
+        "gatherinfo": {
+            "gatherer": "min",
+            "lvl": 35,
+            "gdata": "",
+            "node": "normal",
+            "time": "",
+            "area": "southern thanalan (sagolii desert)",
+            "coords": [
+                0.0,
+                0.0
+            ]
+        },
+        "craftable": false,
+        "craftinfo": {},
+        "tradeable": false,
+        "tradeinfo": {},
+        "droppable": false,
+        "dropinfo": {},
+        "mbprice": 201
     }
 }

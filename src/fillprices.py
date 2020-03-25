@@ -1,4 +1,4 @@
-def price_update(dbname):
+def fillprices(dbname):
     import json
     from src.validator import validate_input, int_validator
 
@@ -15,4 +15,4 @@ def price_update(dbname):
 
 
 if __name__ == "__main__":
-    price_update()
+    fillprices('items.json')
