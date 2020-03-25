@@ -3,7 +3,7 @@ def item_entry(dbname):
     import re
     from src.validator import validate_input, int_validator, coord_validator
 
-    WRITE_TO_FILE = True # For DEBUG
+    WRITE_TO_FILE = True  # For debugging
     findnums = re.compile(r'(\d+(\.\d)?\s*,\s*\d+(\.\d)?)')
 
     with open(f'data/{dbname}', 'r') as f:
@@ -15,13 +15,13 @@ def item_entry(dbname):
     continuebool = True
     if name in db.keys():
         print('Name already in database. Want to overwrite?')
-        continuebool = validate_input('Overwrite? [0/1]', ['0','1'])
+        continuebool = validate_input('Overwrite? [0/1]', ['0', '1'])
         continuebool = bool(int(continuebool))
 
     if not continuebool:
         return
 
-    gbool = validate_input('Gatherable? [0/1]', ['0','1'])
+    gbool = validate_input('Gatherable? [0/1]', ['0', '1'])
     itemdata['gatherable'] = bool(int(gbool))
 
     gatherinfo = dict()
@@ -30,15 +30,14 @@ def item_entry(dbname):
         gatherinfo['lvl'] = int(validate_input('Gatherer level?', int_validator))
         gatherinfo['gdata'] = input('Additional gatherer info (eg **)? ')
         gatherinfo['node'] = validate_input('Node type?',
-                        ['', 'normal', 'unspoiled', 'ephemeral', 'folklore', 'legendary'])
+                                            ['', 'normal', 'unspoiled', 'ephemeral', 'folklore', 'legendary'])
         gatherinfo['time'] = input('Open times? ')
         gatherinfo['area'] = input('Location? ')
         coords = validate_input('Coordinates?', coord_validator)
         gatherinfo['coords'] = [float(x) for x in re.findall(findnums, coords)[0][0].split(',')]
     itemdata['gatherinfo'] = gatherinfo
 
-
-    cbool = validate_input('Craftable? [0/1]', ['0','1'])
+    cbool = validate_input('Craftable? [0/1]', ['0', '1'])
     itemdata['craftable'] = bool(int(cbool))
 
     craftinfo = dict()
@@ -68,8 +67,7 @@ def item_entry(dbname):
         craftinfo['recipe'] = recipe
     itemdata['craftinfo'] = craftinfo
 
-
-    tbool = validate_input('Tradeable? [0/1]', ['0','1'])
+    tbool = validate_input('Tradeable? [0/1]', ['0', '1'])
     itemdata['tradeable'] = bool(int(tbool))
 
     tradeinfo = dict()
@@ -78,8 +76,7 @@ def item_entry(dbname):
         tradeinfo['unit'] = input('Type of unit? ')
     itemdata['tradeinfo'] = tradeinfo
 
-
-    dbool = validate_input('Droppable? [0/1]', ['0','1'])
+    dbool = validate_input('Droppable? [0/1]', ['0', '1'])
     itemdata['droppable'] = bool(int(dbool))
 
     dropinfo = dict()
@@ -90,9 +87,7 @@ def item_entry(dbname):
         dropinfo['coords'] = [float(x) for x in re.findall(findnums, coords)[0][0].split(',')]
     itemdata['dropinfo'] = dropinfo
 
-
     itemdata['mbprice'] = -1
-
 
     if WRITE_TO_FILE:
         db[name] = itemdata
@@ -101,6 +96,7 @@ def item_entry(dbname):
     else:
         print('\n')
         print(json.dumps(itemdata, indent=4))
+
 
 if __name__ == "__main__":
     item_entry('items.json')

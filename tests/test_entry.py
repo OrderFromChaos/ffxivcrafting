@@ -1,13 +1,14 @@
 import sys
-import os
 import json
 
 from src.entry import item_entry
+
 
 # Empty test file
 def clear_file():
     with open('data/test.json', 'w') as f:
         f.write('{\n\n}\n')
+
 
 def stdin_call(inputfile, function):
     backup = sys.stdin
@@ -16,6 +17,7 @@ def stdin_call(inputfile, function):
         function('test.json')
     print()
     sys.stdin = backup
+
 
 def test_entry_drop():
     clear_file()
@@ -43,6 +45,7 @@ def test_entry_drop():
     with open('data/test.json', 'r') as f:
         db = json.load(f)
     assert json.dumps(db, indent=4) == expected
+
 
 def test_entry_gatherer():
     clear_file()
@@ -74,6 +77,7 @@ def test_entry_gatherer():
     with open('data/test.json', 'r') as f:
         db = json.load(f)
     assert json.dumps(db, indent=4) == expected
+
 
 def test_entry_crafter():
     clear_file()
@@ -108,6 +112,7 @@ def test_entry_crafter():
     with open('data/test.json', 'r') as f:
         db = json.load(f)
     assert json.dumps(db, indent=4) == expected
+
 
 def test_entry_trade():
     clear_file()

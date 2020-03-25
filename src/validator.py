@@ -8,7 +8,7 @@ def validate_input(prompt, validf, message=''):
         validtype = 0
     else:
         raise Exception(('Unrecognized object to validate with:', validf))
-    
+
     currinput = input(prompt + ' ')
     if validtype == 0:
         while currinput not in validf:
@@ -26,6 +26,7 @@ def validate_input(prompt, validf, message=''):
             currinput = input(prompt + ' ')
     return currinput
 
+
 def int_validator(string):
     try:
         int(string)
@@ -33,10 +34,11 @@ def int_validator(string):
     except ValueError:
         return False
 
+
 def coord_validator(string):
     import re
-    
-    findnums= re.compile(r'(\d+(\.\d)?\s*,\s*\d+(\.\d)?)')
+
+    findnums = re.compile(r'(\d+(\.\d)?\s*,\s*\d+(\.\d)?)')
     matches = re.findall(findnums, string)
     if matches:
         return True

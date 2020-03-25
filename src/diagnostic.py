@@ -47,5 +47,6 @@ def diagnostic(dbname):
         for i in nosalenames:
             print(f'"{i}"')
 
+
 if __name__ == "__main__":
     diagnostic('items.json')
