@@ -1,9 +1,9 @@
-def cost_lookup():
+def cost_lookup(dbname):
     import json
     from collections import deque
     from validator import validate_input
 
-    with open('data/items.json', 'r') as f: # Intended to be called from root (menu.py)
+    with open(f'data/{dbname}', 'r') as f: # Intended to be called from root (menu.py)
         db = json.load(f)
 
     name = validate_input('Item name?', lambda x: x in db, "    Item not in database.")
@@ -113,4 +113,4 @@ def cost_lookup():
                 d.append((ingname, quant, realq, depth + 1))
 
 if __name__ == "__main__":
-    cost_lookup()
+    cost_lookup('items.json')

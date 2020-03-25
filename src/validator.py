@@ -25,3 +25,18 @@ def validate_input(prompt, validf, message=''):
                 print('    Invalid input.')
             currinput = input(prompt + ' ')
     return currinput
+
+def int_validator(string):
+    try:
+        int(string)
+        return True
+    except ValueError:
+        return False
+
+def coord_validator(string):
+    findnums= re.compile(r'(\d+(\.\d)?\s*,\s*\d+(\.\d)?)')
+    matches = re.findall(findnums, string)
+    if matches:
+        return True
+    else:
+        return False
