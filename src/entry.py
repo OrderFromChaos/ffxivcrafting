@@ -1,9 +1,10 @@
 def item_entry(dbname):
     import json
     import re
-    from validator import validate_input, int_validator, coord_validator
+    from src.validator import validate_input, int_validator, coord_validator
 
     WRITE_TO_FILE = True # For DEBUG
+    findnums = re.compile(r'(\d+(\.\d)?\s*,\s*\d+(\.\d)?)')
 
     with open(f'data/{dbname}', 'r') as f:
         db = json.load(f)

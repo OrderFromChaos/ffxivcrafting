@@ -1,7 +1,7 @@
 def item_update(dbname):
     import json
     from collections import deque
-    from validator import validate_input, int_validator
+    from src.validator import validate_input, int_validator
 
     with open(f'data/{dbname}', 'r') as f:
         db = json.load(f)

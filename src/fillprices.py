@@ -1,6 +1,6 @@
 def price_update(dbname):
     import json
-    from validator import validate_input, int_validator
+    from src.validator import validate_input, int_validator
 
     with open(f'data/{dbname}', 'r') as f:
         db = json.load(f)

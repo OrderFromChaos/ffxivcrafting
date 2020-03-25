@@ -1,7 +1,7 @@
 def cost_lookup(dbname):
     import json
     from collections import deque
-    from validator import validate_input
+    from src.validator import validate_input
 
     with open(f'data/{dbname}', 'r') as f: # Intended to be called from root (menu.py)
         db = json.load(f)

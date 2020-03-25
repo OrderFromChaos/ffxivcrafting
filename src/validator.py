@@ -34,6 +34,8 @@ def int_validator(string):
         return False
 
 def coord_validator(string):
+    import re
+    
     findnums= re.compile(r'(\d+(\.\d)?\s*,\s*\d+(\.\d)?)')
     matches = re.findall(findnums, string)
     if matches:
