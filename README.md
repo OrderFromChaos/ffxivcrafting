@@ -43,6 +43,21 @@ From this we can conclude that the cost to make the whisperfine woolen coat is a
 
 There are tools that already exist that roughly give this information, including the excellent [Garland Tools database](https://garlandtools.org/db/) and the [Gamerescape wiki](https://ffxiv.gamerescape.com/wiki/Whisperfine_Woolen_Coat), but they do not show the whole tree at once, or they do not compute gil costs. This provides additional information that is missing from those tools.
 
+## How do I use it?
+
+Run `python menu.py` in the root directory. You are presented with these options:
+
+    1. Look up an item's cost tree
+    2. Enter an item's info
+    3. Update an item's prices recursively
+    4. Run a diagnostic for bad inputs
+    0. Quit
+
+1. is the option shown in the sample output above.
+2. allows for new information to be entered.
+3. allows for recomputation of a particular item's tree cost. This means a bunch of manual price entry.
+4. allows for certain types of spelling errors to be caught, since these will lead to an incomplete tree.
+
 ## Technical details
 
 ### Input valiation
